@@ -1,7 +1,7 @@
 
 #!/bin/bash
 
-echo "Conecting to $1 Cluster in $2"
+echo "Connecting to $1 Cluster in $2"
 
 aws eks update-kubeconfig --region $2 --name $1
 
